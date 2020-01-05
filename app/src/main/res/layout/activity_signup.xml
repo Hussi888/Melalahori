@@ -15,8 +15,8 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="234dp"
-        android:layout_height="254dp"
+        android:layout_width="235dp"
+        android:layout_height="201dp"
         android:layout_centerHorizontal="true"
         app:srcCompat="@drawable/logo_monogram" />
 
@@ -26,14 +26,14 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/imageView4"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="-54dp"
+        android:layout_marginTop="-30dp"
         android:text="SIGN UP"
         android:textColor="@color/colorAccent"
         android:textSize="35sp"
         app:fontFamily="@font/montserratblack" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/signup_bt"
         android:layout_width="280sp"
         android:layout_height="wrap_content"
         android:layout_below="@id/password_signup"
@@ -49,15 +49,35 @@
 
         />
 
+    <TextView
+        android:id="@+id/already_account"
+        android:layout_width="wrap_content"
+        android:layout_height="101dp"
+        android:layout_below="@+id/signup_bt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:layout_marginBottom="30dp"
+        android:text="Already have an account?"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/name_signup"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="280sp"
         android:layout_height="wrap_content"
 
-        android:layout_centerHorizontal="true"
         android:layout_below="@id/textView2"
-        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
 
         android:hint="NAME"
 
@@ -74,7 +94,7 @@
             android:layout_height="wrap_content"
             android:textColor="#000000"
 
-            />
+            android:textSize="14sp" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -103,7 +123,7 @@
             android:layout_height="wrap_content"
             android:textColor="#000000"
 
-            />
+            android:textSize="14sp" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -130,7 +150,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/colorAccent"
-            />
+            android:textSize="14sp" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
