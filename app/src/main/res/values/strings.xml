@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Melalahori</string>
+
+    <!--this is just sample drop down list. In actual you(moiz) will modify it with json file data
+    Make it dynamic and put as many locations as you extract with retrofit
+    Same with rest of 3 drop down lists i.e type1 , type2 , tag-->
+    <string-array name="locations">
+        <item>Laction1</item>
+        <item>Laction2</item>
+        <item>Laction3</item>
+    </string-array>
+
+    <string-array name="type1">
+        <item>type1</item>
+        <item>type2</item>
+        <item>type3</item>
+    </string-array>
+
+    <string-array name="type2">
+        <item>type1</item>
+        <item>type2</item>
+        <item>type3</item>
+    </string-array>
+
+    <string-array name="tag">
+        <item>Tag1</item>
+        <item>Tag2</item>
+        <item>Tag3</item>
+    </string-array>
 </resources>
