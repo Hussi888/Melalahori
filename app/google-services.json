@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "590038502003",
+    "firebase_url": "https://melalahori-52aed.firebaseio.com",
+    "project_id": "melalahori-52aed",
+    "storage_bucket": "melalahori-52aed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590038502003:android:53c85413fdbfffbfbc7806",
+        "android_client_info": {
+          "package_name": "com.example.melalahori"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590038502003-n9amidjnv801cc443edhs7j4dat7j6o4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.melalahori",
+            "certificate_hash": "a25888fb588093a82cc07ea12aed9cd028457903"
+          }
+        },
+        {
+          "client_id": "590038502003-v2bot48n1tg9ia0lcilc1q53jjgsr0th.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOoF1tXgdp6PFEliVv2OH6DuPvijdPs-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590038502003-v2bot48n1tg9ia0lcilc1q53jjgsr0th.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
